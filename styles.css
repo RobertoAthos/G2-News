@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: red;
+    height: 90px;
+}
+header>h2{
+    color: white;
+    width: 100%;
+   text-align: center;
+   padding-top: 1rem;
+   font-size: 3rem;
+}
+#news-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.news{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    color: black;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.title{
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+.news>a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.author{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+    margin:1.2rem 0rem 1.2rem 0rem;
+    text-align: center;
+}
